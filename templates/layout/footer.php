@@ -1,66 +1,62 @@
-<div class="boxfooter_container background-footer">
-    <div class="wrap-topft">
-    <div class="fixwidth" style="padding: 30px 0 0 0;">
-        <div class="title">Đăng ký nhận bản tin</div>
-        <div class="baner-logo">
-            <p>Chúng tôi hứa sẽ không gửi những mail với nội dung không quan trọng hoặc spam</p>
-            <form method="post" name="frm" class="frm validation-newsletter clearfix" action="" enctype="multipart/form-data">
-                <div class="item-position">
-                    <input name="email-newsletter" type="email" id="email-newsletter" data-key="email-newsletter" class="input_check" placeholder="Email" />
-                    <div class="error_mes" id="error-email-newsletter"></div>
+<div class="boxfooter_container background-footer footer-main">
+    <div class="container">
+        <h1 class="py-5">THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</h1>
+        <div class="row px-5">
+            <div class="col-md-4">
+                <div class="contact-information">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>
+                        <span>Địa chỉ:</span>
+                        566/54 Nguyễn Thái Sơn phường 5 quận Gò Vấp TP.HCM
+                    </p>
+                    <p>
+                        <span>Email:</span>
+                        nguyenvanly8351@gmail.com
+                    </p>
+                    <p>
+                        <span>Điện thoại:</span>
+                        0988598351
+                    </p>
                 </div>
-                <button type="submit" name="submit-newsletter" class="click_ajax" />ĐĂNG KÝ</button>
-                <input type="hidden" name="recaptcha_response_newsletter" id="recaptchaResponseNewsletter">
-            </form>
-            <div class="social2">
-                <?php foreach($social1 as $v) { ?>
-                    <a href="<?=$v['link']?>" class="ftmxh" target="_blank" title="<?=$v['ten'.$lang]?>"><img onerror="this.src='<?=THUMBS?>/35x35x2/assets/images/noimage.png';" src="<?=THUMBS?>/35x35x2/<?=UPLOAD_PHOTO_L.$v['photo']?>" alt="<?=$v['ten'.$lang]?>" title="<?=$v['ten'.$lang]?>"/></a>
-                <?php }?>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-services">
+                    <h3>Danh mục dịch vụ</h3>
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="#">Chống nghiêng công trình</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Chống lún</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gia cố nền móng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nâng nền chống ngập</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nâng nhà cao chống ngập</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gia cố nền móng yếu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-fanpage">
+                    <h3>Fanpage Facebook</h3>
+                    <!-- <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FQUANG-H%25E1%25BB%2598I-Chuy%25C3%25AAn-Th%25C3%25A1o-G%25E1%25BB%25A1-_-%25C4%2590%25E1%25BA%25ADp-Ph%25C3%25A1-Nh%25C3%25A0-X%25C6%25B0%25E1%25BB%259Fng-Kho-109655044913120&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=700766744116639"
+                            width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+                    <img src="./public/images/plugin-image.png" alt="plugin-image">
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="fixwidth">
-        <div class="d-flex justify-content-between">
-            <div class="boxfooter_1">
-                <?=htmlspecialchars_decode($footer['noidung'.$lang])?>
-            </div>
-          
-            <div class="boxfooter_2">
-                <p class="boxfooter_title">Về chúng tôi</p>
-                <div class="boxbaiviet_list">
-                    <p class="box_chinhsach_item" ><a href="" title="Trang chủ">Trang chủ</a></p>
-                    <p class="box_chinhsach_item" ><a href="gioi-thieu" title="Giới thiệu">Giới thiệu</a></p>
-                    <p class="box_chinhsach_item" ><a href="san-pham" title="Sản phẩm">Sản phẩm</a></p>
-                    <p class="box_chinhsach_item" ><a href="tin-tuc" title="Tin tức">Tin tức</a></p>
-                    <p class="box_chinhsach_item" ><a href="lien-he" title="Liên hệ">Liên hệ</a></p>
-                    <p class="box_chinhsach_item" ><a href="cham-soc-suc-khoe" title="Chăm sóc sức khỏe">Chăm sóc sức khỏe</a></p>
-                </div>
-                 
-            </div>      
-            <div class="boxfooter_3">
-                <p class="boxfooter_title">Hướng dẫn</p>
-                <div class="boxbaiviet_list">
-                    <?php foreach($huongdan as $v) { ?>
-                        <p class="box_chinhsach_item" ><a href="<?=$v['tenkhongdau'.$lang]?>" title="<?=$v['ten'.$lang]?>"><?=$v['ten'.$lang]?></a></p>
-                    <?php } ?>
-                </div>
-                 
-            </div>      
-            <div class="boxfooter_4">
-                <p class="boxfooter_title">Tư vấn khách hàng</p>
-                <div class="icon-head d-flex align-self-center" style="margin-bottom:15px;">
-                    <div class="icon-img align-self-center"><i class="fas fa-phone-volume"></i></div>
-                    <div class="icon-info align-self-center">
-                        <div>Hotline tư vấn</div>
-                        <div><strong><?=$optsetting['hotline']?></strong></div>
+        <div class="footer-end-main">
+            <div class="footer-end">
+                <div class="row">
+                    <div class="col-md">
+                        <p class="">© Copyright 2022 Tháo dỡ nhà - Công trình Quang Hội. All rights reserved. Design by
+                            SotaGroup Co.,Ltd
+                        </p>
                     </div>
-                </div>
-                <div class="icon-head d-flex align-self-center">
-                    <div class="icon-img align-self-center"><i class="fas fa-phone-volume"></i></div>
-                    <div class="icon-info align-self-center">
-                        <div>Hotline tư vấn</div>
-                        <div><strong><?=$optsetting['dienthoai']?></strong></div>
+                    <div class="col-md">
+                        <span>Đang online: 12</span>
+                        <span>Trong tuần: 281</span>
+                        <span>Trong tháng: 892</span>
+                        <span>Tổng lượt truy cập: 239029</span>
                     </div>
                 </div>
             </div>
@@ -70,8 +66,7 @@
         <div class="fixwidth d-flex justify-content-between flex-wrap">
             <div>&copy; <?=$optsetting['copyright']?></div>
             <div>Online: <?=$online?> | Hôm nay: <?=$counter['today']?> | Tổng: <?=$counter['total']?></div>
-            
+
         </div>
     </div>
 </div>
-
