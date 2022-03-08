@@ -36485,7 +36485,7 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
     position: relative;
     font-family: 'Muli-Regular';
     font-size: 16px;
-    background: url(../../thumbs/0x36x1/upload/news/bg-footer.png);
+    background: url(../../thumbs/300x300x1/upload/product/bg.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37340,13 +37340,18 @@ coccocgrammar {
     text-transform: uppercase;
     font-size: 18px;
 }
+.footer-main .contact-information p:nth-child(3) {
+    background: url(../../upload/photo/footer3.png) no-repeat;
+    color: #fff;
+    padding: 2px 0 5px 38px;
+}
 .footer-main .contact-information p:nth-child(2) {
-    background: url(../images/footer2.png) no-repeat;
+    background: url(../../upload/photo/footer2.png) no-repeat;
     color: #fff;
     padding: 2px 0 5px 38px;
 }
 .footer-main .contact-information p {
-    background: url(../images/footer1.png) no-repeat;
+    background: url(../../upload/photo/footer1.png) no-repeat;
     color: #fff;
     padding: 2px 0 5px 38px;
 }

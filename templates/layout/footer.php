@@ -40,7 +40,9 @@
                             width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                             allowfullscreen="true"
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-                    <img src="./public/images/plugin-image.png" alt="plugin-image">
+                    <img src="../../thumbs/300x300x1/upload/product/plugin-image.png" alt="plugin-image"
+                        style="width: 200px;height: 200px !important;"
+                    >
                 </div>
             </div>
         </div>
@@ -62,11 +64,11 @@
             </div>
         </div>
     </div>
-    <div class="boxfooter_bottom">
+    <!-- <div class="boxfooter_bottom">
         <div class="fixwidth d-flex justify-content-between flex-wrap">
             <div>&copy; <?=$optsetting['copyright']?></div>
             <div>Online: <?=$online?> | Hôm nay: <?=$counter['today']?> | Tổng: <?=$counter['total']?></div>
 
         </div>
-    </div>
+    </div> -->
 </div>
