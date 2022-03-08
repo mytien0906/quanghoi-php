@@ -17,7 +17,14 @@ if($(".paging-product").exists())
  
 $(".paging-product-index1").each(function(){
     let idl=$(this).attr('data-id');
+    console.log(idl);
     loadPagingAjax("ajax/ajax_product_paging.php?perpage=6",'.paging-product-index1','',idl);
+});
+
+$(".paging-product-index2").each(function(){
+    let idl=$(this).attr('data-id');
+    console.log(idl);
+    loadPagingAjax("ajax/test_ajax.php?perpage=8",'.paging-product-index2','',idl);
 });
 
 $(".title-category span.active").each(function(){
@@ -472,6 +479,7 @@ NN_FRAMEWORK.loadmap = function(){
         $('.loadmap').removeClass('active');
         $(this).addClass('active');
         let id= $(this).attr('data-id');
+        
         $.ajax({
             url:'ajax/ajax_bando.php',
             type: "POST",

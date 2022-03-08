@@ -91,6 +91,8 @@
 	 
 		/* Bài viết */		
 		array("tbl"=>"news","field"=>"id","source"=>"news","com"=>"tin-tuc","type"=>"tin-tuc",'menu'=>true),
+		array("tbl"=>"news","field"=>"id","source"=>"news","com"=>"du-an","type"=>"du-an",'menu'=>true),
+		array("tbl"=>"news","field"=>"id","source"=>"news","com"=>"dich-vu","type"=>"dich-vu",'menu'=>true),
 		array("tbl"=>"news","field"=>"id","source"=>"news","com"=>"cham-soc-suc-khoe","type"=>"cham-soc-suc-khoe",'menu'=>true),
 		array("tbl"=>"news","field"=>"id","source"=>"news","com"=>"huong-dan","type"=>"huong-dan",'menu'=>false),
  
@@ -145,7 +147,16 @@
 			$seo->setSeo('type','article');
 			$title_crumb = 'Giới thiệu';
 			break;
-	 
+			
+		case 'dich-vu':
+			$source = "static";
+			$template = "static/static";
+			$type = $com;
+			$seo->setSeo('type','article');
+			$title_crumb = 'Dịch Vụ';
+			break;
+				
+		 
   		case 'tin-tuc':
 			$source = "news";
 			$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
@@ -153,6 +164,13 @@
 			$type = $com;
 			$title_crumb = "Tin tức";
 			break;
+			case 'du-an':
+				$source = "news";
+				$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
+				$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
+				$type = $com;
+				$title_crumb = "Dự Án";
+				break;
 
 		case 'cham-soc-suc-khoe':
 			$source = "news";
