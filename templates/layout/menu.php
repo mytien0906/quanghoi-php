@@ -97,15 +97,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="lien-he">liên hệ</a>
                         </li>
-                       
-                        <form class="form-inline my-2 my-lg-0 frm_timkiem">
-                        <input autocomplete="off" type="text" class="input" id="keyword"
-                            placeholder="Nhập từ khóa tìm kiếm" onkeypress="doEnter(event,'keyword');">
-                        <button type="submit" value="" class="nut_tim" onclick="onSearch('keyword');"><i
-                                class="fal fa-search"></i></button>
-                    </form>
+                        <div class="bao">
+                            <form class="form-inline my-2 my-lg-0 frm_timkiem">
+                                <input autocomplete="off" type="text" class="input" id="keyword"
+                                    placeholder="Nhập từ khóa tìm kiếm" onkeypress="doEnter(event,'keyword');">
+                                <button type="submit" value="" class="nut_tim" onclick="onSearch('keyword');"><i
+                                        class="fal fa-search"></i></button>
+
+                            </form>
+                        </div>
                     </ul>
-                    
+
                 </div>
             </nav>
         </div>
