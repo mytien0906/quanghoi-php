@@ -67,56 +67,47 @@
         </div>
     </div>
     <div id="menu_top">
-        <div class="fixwidth clearfix">
-            <div class="menu">
-                <ul class="menu_cap_cha d-flex justify-content-center">
-                    <li class="menulicha <?=$source=='index' ? 'active':''?>"><a class="header_logo" href=""><img
-                                onerror="this.src='<?=THUMBS?>/0x85x2/assets/images/noimage.png';"
-                                src="<?=THUMBS?>/0x85x2/<?=UPLOAD_PHOTO_L.$logo['photo']?>" /></a></li>
-                    <li class="menulicha <?=$source=='index' ? 'active':''?>"><a href="" title="Trang chủ">Trang chủ</a>
-                    </li>
-                    <!-- <li class="menulicha <?=$com=='san-pham' ? 'active':''?>"><a href="san-pham" title="Sản phẩm">Sản
-                            phẩm <i class="fal fa-angle-down"></i></a>
-                        <?php if($splistmenu) { ?>
-                        <ul class="menu_cap_con">
-                            <?php foreach($splistmenu as $c=>$cat) { ?>
-                            <li><a title="<?=$cat['ten'.$lang]?>" href="<?=$cat[$sluglang]?>"><?=$cat['ten'.$lang]?></a>
-                                <?php
-                                            $spcatmenu = $d->rawQuery("select ten$lang, tenkhongdauvi, id,photo from #_product_cat where type = ? and id_list = ? and hienthi > 0 order by stt,id desc",array('san-pham',$cat['id']));
-                                            if(count($spcatmenu)>0) { ?>
-                                <ul class="menu_cap_2">
-                                    <?php foreach($spcatmenu as $c1=>$cat1) {?>
-                                    <li><a title="<?=$cat1['ten'.$lang]?>"
-                                            href="<?=$cat1[$sluglang]?>"><?=$cat1['ten'.$lang]?></a></li>
-                                    <?php } ?>
-                                </ul>
-                                <?php } ?>
-                            </li>
-                            <?php } ?>
-                        </ul>
-                        <?php } ?>
-                    </li> -->
-                    <li class="menulicha <?=$com=='gioi-thieu' ? 'active':''?>"><a href="gioi-thieu"
-                            title="Giới thiệu">Giới thiệu</a></li>
-                    <li class="menulicha <?=$com=='dich-vu' ? 'active':''?>"><a href="dich-vu" title="Dịch Vụ">Dịch
-                            vụ</a></li>
-                    <li class="menulicha <?=$com=='du-an' ? 'active':''?>"><a href="du-an" title="Dự án">Dự án</a></li>
-                    <li class="menulicha <?=$com=='tin-tuc' ? 'active':''?>"><a href="tin-tuc" title="Tin tức">Tin
-                            tức</a></li>
-                    <li class="menulicha <?=$com=='lien-he' ? 'active':''?>"><a href="lien-he" title="Liên hệ">Liên
-                            hệ</a></li>
-                    <li class="menulicha">
-                        <div class="frm_timkiem">
-                            <input 
-                                autocomplete="off"
-                                type="text" class="input" id="keyword" placeholder="Nhập từ khóa tìm kiếm"
-                                onkeypress="doEnter(event,'keyword');">
-                            <button type="submit" value="" class="nut_tim" onclick="onSearch('keyword');"><i
-                                    class="fal fa-search"></i></button>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-red">
+                <a class="header_logo" href="#"><img onerror="this.src='<?=THUMBS?>/0x85x2/assets/images/noimage.png';"
+                        src="<?=THUMBS?>/0x85x2/<?=UPLOAD_PHOTO_L.$logo['photo']?>" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gioi-thieu">giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dich-vu">dịch vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="du-an">dự án</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tin-tuc">tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lien-he">liên hệ</a>
+                        </li>
+                       
+                        <form class="form-inline my-2 my-lg-0 frm_timkiem">
+                        <input autocomplete="off" type="text" class="input" id="keyword"
+                            placeholder="Nhập từ khóa tìm kiếm" onkeypress="doEnter(event,'keyword');">
+                        <button type="submit" value="" class="nut_tim" onclick="onSearch('keyword');"><i
+                                class="fal fa-search"></i></button>
+                    </form>
+                    </ul>
+                    
+                </div>
+            </nav>
         </div>
     </div>
 </div>
