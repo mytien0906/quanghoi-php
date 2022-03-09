@@ -133,7 +133,7 @@
 <div class="wrap-contact">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12 py-5" style="padding-left: 4rem;">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 py-5" style="padding-left: 4rem;">
                 <div class="wrap-contact-left">
                     <form class="form-contact validation-contact" novalidate="" method="post" action=""
                         enctype="multipart/form-data" autocompelete="off">
@@ -200,7 +200,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="wrap-contact-right">
                     <iframe src="https://www.youtube.com/embed/Akhn15oT-bw" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

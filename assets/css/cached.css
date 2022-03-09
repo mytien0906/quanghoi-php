@@ -37712,3 +37712,45 @@ coccocgrammar {
     font-weight: bold;
     border-radius: 0;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px){
+    .introduce .about-business{
+        grid-template-columns: 1fr;
+    }
+    .introduce .about-business .about-business-left{
+        writing-mode: horizontal-tb;
+        clip-path: none;
+    }
+    .introduce .about-business .about-business-left p,.introduce .about-business .about-business-left h3{
+        transform: none;
+    }
+    .introduce .about-business .about-business-mid .about-business-mid-content p{
+        padding: 0 15px;
+        text-align: justify;
+    }
+    .introduce .about-business .about-business-mid .about-business-mid-more a{
+        padding: 8px 12px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .introduce .about-business .about-business-right .about-businesss-right-image2{
+        padding: 0;
+
+    }
+    .introduce .about-business .about-business-right .about-businesss-right-image2 img,
+    .introduce .about-business .about-business-right .about-businesss-right-image1 img{
+        width: 100%;
+    }
+    .introduce .about-business .about-business-right .about-businesss-right-image1{
+        position: relative;
+    }
+    .wrap-contact .wrap-contact-right{
+        position: relative;
+        padding-left: 50px;
+    }
+    .wrap-contact iframe{
+        width: 100%;
+    height: 400px;
+    }
+}
