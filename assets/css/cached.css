@@ -35443,10 +35443,15 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
     align-items: center;
 }
 
+.bao{
+    margin: 0 auto;
+}
 .menu {
     position: relative;
 }
-
+#menu_top .navbar-light ul{
+    text-align: center;
+}
 #menu_top .navbar-light li a {
     color: #fff;
     text-transform: uppercase;
