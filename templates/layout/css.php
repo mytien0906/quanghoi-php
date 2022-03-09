@@ -40,14 +40,14 @@
     $bgbody2 = $d->rawQuery("select hienthi, options, photo,type from #_photo where act = ? and ( type = ?) ",array('photo_static','background-dv'));
     
     foreach ($bgbody2 as $key => $value) {
-        if($value['hienthi']){
-            $bgbodyOptions = json_decode($value['options'],true)['background'];
-            if($bgbodyOptions['loaihienthi']) {
-                echo '<style type="text/css">.'.$value['type'].'{background: url('.UPLOAD_PHOTO_L.$value['photo'].') '.$bgbodyOptions['repeat'].' '.$bgbodyOptions['position'].' '.$bgbodyOptions['attachment'].' ;background-size:'.$bgbodyOptions['size'].'}</style>';
-            }else{
-                echo ' <style type="text/css">.'.$value['type'].'{background-color:#'.$bgbodyOptions['color'].'}</style>';
-            }
-        }
+        // if($value['hienthi']){
+        //     $bgbodyOptions = json_decode($value['options'],true)['background'];
+        //     if($bgbodyOptions['loaihienthi']) {
+        //         // echo '<style type="text/css">.'.$value['type'].'{background: url('.UPLOAD_PHOTO_L.$value['photo'].') '.$bgbodyOptions['repeat'].' '.$bgbodyOptions['position'].' '.$bgbodyOptions['attachment'].' ;background-size:'.$bgbodyOptions['size'].'}</style>';
+        //     }else{
+        //         echo ' <style type="text/css">.'.$value['type'].'{background-color:#'.$bgbodyOptions['color'].'}</style>';
+        //     }
+        // }
     }
     
      
