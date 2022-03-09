@@ -36152,7 +36152,7 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
 }
 .wrap-contact .wrap-contact-left .input-contact input:focus ~
 .wrap-contact .wrap-contact-left .input-contact label{
-    top: -10px
+    top: -10px;
 }
 .wrap-news {
     padding: 40px 0;
@@ -37395,4 +37395,7 @@ coccocgrammar {
     color: black;
     font-weight: bold;
     border-radius: 0;
+}
+.form-contact {
+    position: relative;
 }
