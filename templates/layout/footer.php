@@ -2,7 +2,7 @@
     <div class="container">
         <h1 class="py-5">THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</h1>
         <div class="row px-5">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="contact-information">
                     <h3>Thông tin liên hệ</h3>
                     <p>
@@ -19,7 +19,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="footer-services">
                     <h3>Danh mục dịch vụ</h3>
                     <ul>
@@ -32,7 +32,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="footer-fanpage">
                     <h3>Fanpage Facebook</h3>
                     <!-- <iframe
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="footer-end-main">
-            <div class="footer-end">
+            <div class="footer-end px-5">
                 <div class="row">
                     <div class="col-md">
                         <p class="">© Copyright 2022 Tháo dỡ nhà - Công trình Quang Hội. All rights reserved. Design by
