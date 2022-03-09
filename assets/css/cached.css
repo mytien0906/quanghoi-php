@@ -36557,7 +36557,10 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
     position: relative;
     font-family: 'Muli-Regular';
     font-size: 16px;
-    background-color: #fbefd6;
+    background: url(../../thumbs/300x300x1/upload/product/bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .boxfooter_container .fixwidth {
@@ -37557,4 +37560,88 @@ coccocgrammar {
 }
 .text-white {
     color: #fff!important;
+}
+/* Footer */
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 768px){
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }   
+}
+
+.footer-main h1 {
+    color: #fff;
+    text-align: center;
+    color: #d63031;
+    font-weight: bold;
+}
+.footer-main .py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.footer-main .px-5 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+}
+.footer-main .contact-information h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer-main .contact-information p:nth-child(3) {
+    background: url(../../upload/photo/footer3.png) no-repeat;
+    color: #fff;
+    padding: 2px 0 5px 38px;
+}
+.footer-main .contact-information p:nth-child(2) {
+    background: url(../../upload/photo/footer2.png) no-repeat;
+    color: #fff;
+    padding: 2px 0 5px 38px;
+}
+.footer-main .contact-information p {
+    background: url(../../upload/photo/footer1.png) no-repeat;
+    color: #fff;
+    padding: 2px 0 5px 38px;
+}
+.footer-main .contact-information p span {
+    display: block;
+}
+.footer-main .footer-services h3 {
+    color: #fff;
+}
+.footer-main .footer-services ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+.footer-main .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.footer-main .footer-fanpage {
+    width: 100%;
+    max-width: 100%;
+}
+.footer-main .footer-fanpage h3 {
+    color: #fff;
+}
+.footer-main .footer-services ul li a:hover {
+    color: yellow;
+}
+.footer-main .footer-end-main .footer-end p {
+    color: #fff;
+}
+.footer-main .footer-end-main .footer-end span {
+    color: #fff;
+}
+.footer-main .footer-end-main .footer-end span::after {
+    content: "|";
+    padding: 0 6px;
 }
