@@ -148,13 +148,13 @@
 			$title_crumb = 'Giới thiệu';
 			break;
 			
-		case 'dich-vu':
-			$source = "static";
-			$template = "static/static";
-			$type = $com;
-			$seo->setSeo('type','article');
-			$title_crumb = 'Dịch Vụ';
-			break;
+		// case 'dich-vu':
+		// 	$source = "static";
+		// 	$template = "static/static";
+		// 	$type = $com;
+		// 	$seo->setSeo('type','article');
+		// 	$title_crumb = 'Dịch Vụ';
+		// 	break;
 				
 		 
   		case 'tin-tuc':
@@ -164,14 +164,20 @@
 			$type = $com;
 			$title_crumb = "Tin tức";
 			break;
-			case 'du-an':
-				$source = "news";
-				$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
-				$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
-				$type = $com;
-				$title_crumb = "Dự Án";
-				break;
-
+		case 'du-an':
+			$source = "news";
+			$template = isset($_GET['id']) ? "news/structures_detail" : "news/structures";
+			$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
+			$type = $com;
+			$title_crumb = "Dự Án";
+			break;
+		case 'dich-vu':
+			$source = "news";
+			$template = isset($_GET['id']) ? "news/service_detail" : "news/service";
+			$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
+			$type = $com;
+			$title_crumb = "Dịch Vụ";
+			break;
 		case 'cham-soc-suc-khoe':
 			$source = "news";
 			$template = isset($_GET['id']) ? "news/news_detail" : "news/news";

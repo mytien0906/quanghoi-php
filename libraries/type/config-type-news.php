@@ -18,7 +18,45 @@
     $config['news'][$nametype]['height'] = 205;
     $config['news'][$nametype]['thumb'] = '360x205x1';
     $config['news'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
-    
+
+     /* tin tức */
+     $nametype = "dich-vu";
+     $config['news'][$nametype]['title_main'] = "Dịch Vụ";
+     $config['news'][$nametype]['check'] = array('noibat'=> 'Nổi bật');
+     $config['news'][$nametype]['view'] = true;
+     $config['news'][$nametype]['slug'] = true;
+     $config['news'][$nametype]['copy'] = true;
+     $config['news'][$nametype]['bando'] = false;
+     $config['news'][$nametype]['images'] = true;
+     $config['news'][$nametype]['show_images'] = true;
+     $config['news'][$nametype]['mota'] = true;
+     $config['news'][$nametype]['noidung'] = true;
+     $config['news'][$nametype]['noidung_cke'] = true;
+     $config['news'][$nametype]['seo'] = true;
+     $config['news'][$nametype]['width'] = 360;
+     $config['news'][$nametype]['height'] = 205;
+     $config['news'][$nametype]['thumb'] = '360x205x1';
+     $config['news'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+        
+    /* Dự án */
+    $nametype = "du-an";
+    $config['news'][$nametype]['title_main'] = "Dự Án";
+    $config['news'][$nametype]['check'] = array('noibat'=> 'Nổi bật');
+    $config['news'][$nametype]['view'] = true;
+    $config['news'][$nametype]['slug'] = true;
+    $config['news'][$nametype]['copy'] = true;
+    $config['news'][$nametype]['bando'] = false;
+    $config['news'][$nametype]['images'] = true;
+    $config['news'][$nametype]['show_images'] = true;
+    $config['news'][$nametype]['mota'] = true;
+    $config['news'][$nametype]['noidung'] = true;
+    $config['news'][$nametype]['noidung_cke'] = true;
+    $config['news'][$nametype]['seo'] = true;
+    $config['news'][$nametype]['width'] = 360;
+    $config['news'][$nametype]['height'] = 205;
+    $config['news'][$nametype]['thumb'] = '360x205x1';
+    $config['news'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+     
     /* tin tức */
     $nametype = "cham-soc-suc-khoe";
     $config['news'][$nametype]['title_main'] = "Chăm sóc sức khỏe";

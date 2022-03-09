@@ -26,7 +26,7 @@ $pageLink .= $tempLink;
 
 /* Get data */
 // $sql = "select ten$lang, tenkhongdau$lang, photo, id,gia from #_product where type='san-pham' $where and noibat > 0 and hienthi > 0 order by stt,id desc";
-$sql = "select ten$lang, tenkhongdau$lang,motavi,noidungvi, photo, id from table_news where type='tin-tuc' and noibat > 0 and hienthi > 0 order by stt,id desc";
+$sql = "select ten$lang, tenkhongdau$lang,motavi,noidungvi, photo, id from table_news where type='dich-vu' and noibat > 0 and hienthi > 0 order by stt,id desc";
 $sqlCache = $sql . " limit $start, $pagingAjax->perpage";
 $items = $cache->getCache($sqlCache, 'result', 7200);
 
