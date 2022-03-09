@@ -38,9 +38,11 @@
 
     /* Seo page */
     $config['seopage']['page'] = array(
+        "dich-vu" => "Giới thiệu",
         "gioi-thieu" => "Giới thiệu",
         "san-pham" => "Sản phẩm",
         "tin-tuc" => "Tin tức",        
+        "du-an" => "Tin tức",        
         "cham-soc-suc-khoe" => "Chăm sóc sức khỏe",        
         "lien-he" => "Liên hệ",
         //"tim-kiem" => "Tìm kiếm"
