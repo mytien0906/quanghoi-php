@@ -107,7 +107,9 @@
                             hệ</a></li>
                     <li class="menulicha">
                         <div class="frm_timkiem">
-                            <input type="text" class="input" id="keyword" placeholder="Nhập từ khóa tìm kiếm"
+                            <input 
+                                autocomplete="off"
+                                type="text" class="input" id="keyword" placeholder="Nhập từ khóa tìm kiếm"
                                 onkeypress="doEnter(event,'keyword');">
                             <button type="submit" value="" class="nut_tim" onclick="onSearch('keyword');"><i
                                     class="fal fa-search"></i></button>
