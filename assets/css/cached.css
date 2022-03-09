@@ -37645,3 +37645,70 @@ coccocgrammar {
     content: "|";
     padding: 0 6px;
 }
+/* Contact form */
+.wrap-contact{
+    background-color: #d63031;
+}
+.wrap-contact .form-contact{width:100%}
+.wrap-contact iframe{
+    width: 100%;
+    height: 95%;
+}
+.wrap-contact .wrap-contact-right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.wrap-contact .wrap-contact-left .form-register-news-left-title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 0.5rem;
+}
+.wrap-contact .wrap-contact-left .form-register-news-left-title p{
+    color: #fff;
+}
+.wrap-contact .wrap-contact-left .input-contact input,
+.wrap-contact .wrap-contact-left .input-contact textarea
+{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    border-radius: 0px;
+    color: #212529;
+}
+.wrap-contact .wrap-contact-left .input-contact input:focus, 
+.wrap-contact .wrap-contact-left .input-contact textarea:focus{
+    outline: none;
+    box-shadow:unset;
+}
+.wrap-contact .wrap-contact-left .input-contact textarea{
+    height: 100px;
+}
+.wrap-contact .wrap-contact-left .input-contact label{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    transition: 
+    top 200ms ease-in,
+    left 200ms ease-in,
+    font-size 200ms ease-in;
+}
+.wrap-contact .wrap-contact-left .input-contact input:focus ~
+.wrap-contact .wrap-contact-left .input-contact label{
+    top: -10px;
+}
+.form-register-submit .sub-contact {
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+}
