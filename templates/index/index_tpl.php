@@ -66,41 +66,40 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-12 py-5" style="padding-left: 4rem;">
                 <div class="wrap-contact-left">
                     <form class="form-contact validation-contact" novalidate="" method="post" action=""
-                        enctype="multipart/form-data">
+                        enctype="multipart/form-data" autocompelete="off">
                         <div class="form-register-news-left-title">
                             <h1>Đăng ký nhận tin</h1>
                             <p>Điền thông tin của bạn vào form bên dưới để đăng ký nhận báo giá từ chúng tôi</p>
                         </div>
                         <div class="row" style="padding-top: 16px">
                             <div class="input-contact col-sm-6">
-                                <input type="text" class="form-control" id="ten" name="ten" placeholder="" required=""
+                                <input type="text" class="form-control a" id="ten" name="ten" placeholder="" required=""
                                     autocompelete="off">
                                 <div class="underline"></div>
-                                <label for="">Họ và tên:</label>
+                                <label for="" class="name-customer">Họ và tên:</label>
                                 <div class="invalid-feedback">Vui lòng nhập họ và tên</div>
                             </div>
                             <div class="input-contact col-sm-6">
                                 <input type="number" class="form-control" id="dienthoai" name="dienthoai" placeholder=""
                                     required="" autocompelete="off">
                                 <div class="underline"></div>
-                                <label for="">Số điện thoại:</label>
+                                <label for="" class="phone-customer">Số điện thoại:</label>
                                 <div class="invalid-feedback">Vui lòng nhập số điện thoại</div>
                             </div>
                         </div>
                         <div class="row">
-
                             <div class="input-contact col-sm-6">
                                 <input type="email" class="form-control" id="email" name="email" placeholder=""
-                                    required="" autocompelete="off">
+                                    required="" >
                                 <!-- <div class="underline"></div> -->
-                                <label for="">Email:</label>
+                                <label for="" class="email-customer">Email:</label>
                                 <div class="invalid-feedback">Vui lòng nhập địa chỉ email</div>
                             </div>
                             <div class="input-contact col-sm-6">
                                 <input type="text" class="form-control" id="diachi" name="diachi" placeholder=""
                                     required="" autocompelete="off">
                                 <div class="underline"></div>
-                                <label for="">Địa chỉ:</label>
+                                <label for="" class="address-customer">Địa chỉ:</label>
                                 <div class="invalid-feedback">Vui lòng nhập địa chỉ</div>
                             </div>
                         </div>
@@ -108,14 +107,14 @@
                             <input type="text" class="form-control" id="tieude" name="tieude" placeholder="" required=""
 							autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
                             <div class="underline"></div>
-                            <label for="">Chủ đề</label>
+                            <label for="" class="Topic">Chủ đề</label>
                             <div class="invalid-feedback">Vui lòng nhập chủ đề</div>
                         </div>
                         <div class="input-contact">
                             <input type="hidden" class="form-control" id="tieude" name="tieude" placeholder=""
                                 required="" autocompelete="off">
                             <div class="underline"></div>
-                            <label for="">Nội dung</label>
+                            <label for="" class="content-customer">Nội dung</label>
                             <div class="invalid-feedback">Vui lòng nhập chủ đề</div>
                         </div>
                         <div class="input-contact">
