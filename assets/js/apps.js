@@ -22,6 +22,11 @@ $(".paging-product-index2").each(function () {
     let idl = $(this).attr('data-id');
     loadPagingAjax("ajax/ajax_structure_paging.php?perpage=8", '.paging-product-index2', '', idl);
 });
+$(".paging-product-index3").each(function () {
+    let idl = $(this).attr('data-id');
+    loadPagingAjax("ajax/ajax_new_paging.php?perpage=3", '.paging-product-index3', '', idl);
+});
+
 $(".title-category span.active").each(function () {
     let idl = $(this).attr('data-id');
     loadPagingAjax("ajax/ajax_product_paging.php?perpage=6", '.paging-product-index', '', idl);

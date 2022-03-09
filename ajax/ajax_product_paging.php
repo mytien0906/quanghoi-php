@@ -26,7 +26,7 @@ $pageLink .= $tempLink;
 
 /* Get data */
 // $sql = "select ten$lang, tenkhongdau$lang, photo, id,gia from #_product where type='san-pham' $where and noibat > 0 and hienthi > 0 order by stt,id desc";
-$sql = "select ten$lang, tenkhongdau$lang, photo, id from table_news where type='tin-tuc' and noibat > 0 and hienthi > 0 order by stt,id desc";
+$sql = "select ten$lang, tenkhongdau$lang,motavi,noidungvi, photo, id from table_news where type='tin-tuc' and noibat > 0 and hienthi > 0 order by stt,id desc";
 $sqlCache = $sql . " limit $start, $pagingAjax->perpage";
 $items = $cache->getCache($sqlCache, 'result', 7200);
 
@@ -49,7 +49,7 @@ $pagingItems = $pagingAjax->getAllPageLinks($countItems, $pageLink, $eShow, $id)
 							alt="<?= $v['ten' . $lang] ?>" /></a>
 					<div class="boxproduct_info">
 						<div class="boxproduct_name"><a href="<?= $v['tenkhongdauvi'] ?>" title="<?= $v['tenvi'] ?>"><?= $v['ten' . $lang] ?></a></div>
-						<div class="boxproduct_price"><a href="" class="price-link">Giá: <?= $func->format_money($v['gia']) ?></a></div>
+						<div class="boxproduct_price"><a href="" class="price-link"><?= $v['motavi'] ?></a></div>
 
 					</div>
 				</div>

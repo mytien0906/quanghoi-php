@@ -36259,13 +36259,16 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
     width: 100%;
     text-align: center;
 }
+.boxproduct_item .boxproduct_info.boxnew_info{
+
+}
 
 .boxproduct_item .boxproduct_name {
     margin-top: 10px;
     position: relative;
 }
 
-.boxproduct_item .boxproduct_name a {
+.boxproduct_item .boxproduct_name a{
     transition: all 0.5s;
     text-transform: uppercase;
     color: #fff;
@@ -36297,6 +36300,36 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
     color: #e21212;
 }
 
+.boxnew_info .boxnew_name a{
+    color: #212529;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 21px;
+    max-height: 39px;
+    -webkit-line-clamp: 2;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: block;
+}
+.boxnew_info p{
+    text-align: justify !important;
+    text-transform: capitalize !important;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 21px;
+    max-height: 39px;
+    -webkit-line-clamp: 2;
+    position: relative;
+}
 .loadkhung_product1 .boxproduct_item .boxproduct_name a {
     font-size: 18px;
 }

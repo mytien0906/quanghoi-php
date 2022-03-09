@@ -41,17 +41,19 @@
 <?php if($countItems) { ?>
 	<div class="container">
 		<div class="loadkhung_product row">
-			<?php foreach($items as $k=>$v){?>
-				<div class="boxproduct_item col-lg-3 col-md-3 col-sm-6 col-12">
+			<?php foreach($items as $k=>$v){
+                // var_dump($v)
+                ?>
+				<div class="boxproduct_item col-lg-4 col-md-4 col-sm-6 col-12">
 					<a class="boxproduct_img" 
 						href="<?=$v['tenkhongdauvi']?>">
 						<img 
 							onerror="this.src='<?=THUMBS?>/300x300x2/assets/images/noimage.png';" 
 							src="<?= UPLOAD_NEWS_L.$v['photo']?>" 
 							alt="<?=$v['ten'.$lang]?>"/></a>
-					<div class="boxproduct_info">
-						<div class="boxproduct_name"><a href="<?=$v['tenkhongdauvi']?>" title="<?=$v['tenvi']?>"><?=$v['ten'.$lang]?></a></div>
-						<div class="boxproduct_price"><a href="" class="price-link"><?=$v['motavi']?></a></div>
+					<div class="boxnew_info">
+						<h4 class="boxnew_name"><a href="<?=$v['tenkhongdauvi']?>" title="<?=$v['tenvi']?>"><?=$v['ten'.$lang]?></a></h4>
+						<div class="boxnew_link"><p><?= $v['noidungvi']?></p></div>
 	
 					</div>
 				</div>

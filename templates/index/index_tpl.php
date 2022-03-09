@@ -58,7 +58,7 @@
 	</div>
 </div> -->
 
-<div class="wrap-news">
+<!-- <div class="wrap-news">
 	<div class="fixwidth">
 		<div class="title">Tin tức mới nhất</div>
 		<div class="owl-carousel owl-theme owl-news">
@@ -76,9 +76,20 @@
 				</div>
 			<?php } ?>
 		</div>
+
 	</div>
-</div>
-<div class="wrap-feedback">
+</div> -->
+<?php if ($pro_new['numb'] > 0) {
+?>
+	<div class="wrap_product_new nth-3">
+		<div class="fixwidth">
+			<div class="title">Tin tức nổi bật</div>
+			<p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
+			<div class="paging-product-index3" data-id="0"></div>
+		</div>
+	</div>
+<?php } ?>
+<!-- <div class="wrap-feedback">
 	<div class="fixwidth">
 		<div class="content-feedback">
 			<div class="owl-carousel owl-theme owl-feedback">
@@ -101,4 +112,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
