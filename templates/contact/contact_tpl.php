@@ -28,7 +28,7 @@
                 <div class="invalid-feedback"><?=vuilongnhapchude?></div>
             </div>
             <div class="input-contact">
-                <textarea class="form-control" id="noidung" name="noidung" placeholder="<?=noidung?>" required /></textarea>
+                <textarea class="form-control" id="noidung" name="noidung" placeholder="<?=noidung?>" required ></textarea>
                 <div class="invalid-feedback"><?=vuilongnhapnoidung?></div>
             </div>
             <div class="input-contact">

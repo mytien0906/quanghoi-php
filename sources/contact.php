@@ -1,6 +1,6 @@
 <?php 
-	if(!defined('SOURCES')) die("Error");
-
+	if(!defined('SOURCES'))  die("Error");
+	
 	if(isset($_POST['submit-contact']))
 	{
         $responseCaptcha = $_POST['recaptcha_response_contact'];
@@ -8,9 +8,10 @@
         $scoreCaptcha = (isset($resultCaptcha['score'])) ? $resultCaptcha['score'] : 0;
         $actionCaptcha = (isset($resultCaptcha['action'])) ? $resultCaptcha['action'] : '';
         $testCaptcha = (isset($resultCaptcha['test'])) ? $resultCaptcha['test'] : false;
-
-        if(($scoreCaptcha >= 0.5 && $actionCaptcha == 'contact') || $testCaptcha == true)
-		{
+		// echo ((isset($resultCaptcha['score'])) ? $resultCaptcha['score'] : 0); die();
+        // if(($scoreCaptcha >= 0.5 && $actionCaptcha == 'contact') || $testCaptcha == true)
+		// {
+			echo 1; die();
 			$data = array();
 			
 			if(isset($_FILES["file"]))
@@ -31,6 +32,7 @@
 		    $data['ngaytao'] = time(); 
 		    $data['type'] = 'contact';
 		    $data['stt'] = 1;
+			
 		    $d->insert('contact',$data);
 			
 		    /* Gán giá trị gửi email */
@@ -281,11 +283,11 @@
 				if($emailer->sendEmail("customer", $arrayEmail, $subject, $message, $file)) $func->transfer("Gửi liên hệ thành công",$config_base);
 			}
 			else $func->transfer("Gửi liên hệ thất bại. Vui lòng thử lại sau",$config_base, false);
-		}
-		else
-		{
-			$func->transfer("Gửi liên hệ thất bại. Vui lòng thử lại sau",$config_base, false);
-		}
+		// }
+		// else
+		// {
+		// 	$func->transfer("Gửi liên hệ thất bại. Vui lòng thử lại sau",$config_base, false);
+		// }
 	}
 
 	/* SEO */
