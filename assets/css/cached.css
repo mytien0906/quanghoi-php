@@ -37852,6 +37852,12 @@ coccocgrammar {
     .justify-content-between .right {
         width: 100%;
     }
+    #menu_top .bg-red{
+        padding: 10px 0px;
+    }
+    .header-height{
+        /* height: 106px; */
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -37861,4 +37867,5 @@ coccocgrammar {
     .top-contact .article-contact,.form-contact{
         width: 100%;
     }
+   
 }
