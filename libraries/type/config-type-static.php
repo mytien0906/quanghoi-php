@@ -15,6 +15,23 @@
     $config['static'][$nametype]['height'] = 315;    
     $config['static'][$nametype]['width1'] = 440;
     $config['static'][$nametype]['height1'] = 325;
+
+     /* Giới thiệu */
+     $nametype = "gioi-thieu-home";
+     $config['static'][$nametype]['title_main'] = "Giới thiệu trang chủ";
+     $config['static'][$nametype]['images'] = true;
+     $config['static'][$nametype]['images2'] = true;
+     $config['static'][$nametype]['file'] = false;
+     $config['static'][$nametype]['tieude'] = true;
+     $config['static'][$nametype]['mota'] = false;
+     $config['static'][$nametype]['mota_cke'] = false;
+     $config['static'][$nametype]['noidung'] = true;
+     $config['static'][$nametype]['noidung_cke'] = true;
+     $config['static'][$nametype]['seo'] = false;
+     $config['static'][$nametype]['width'] = 465;
+     $config['static'][$nametype]['height'] = 315;    
+     $config['static'][$nametype]['width1'] = 440;
+     $config['static'][$nametype]['height1'] = 325;
     /*$config['static'][$nametype]['gallery'] = array(
         $nametype => array(
             "title_main_photo" => "Hình ảnh chứng nhận",

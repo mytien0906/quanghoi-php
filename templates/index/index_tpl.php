@@ -14,121 +14,72 @@
     </div>
 </div>
 <?php }*/?>
-<div class="introduce">
-    <div class="about-business">
-        <div class="about-business-left">
-            <p class="mx-0">THÁO DỠ NHÀ - CÔNG TRÌNH </p>
-            <h3 class="mx-0">QUANG HỘI</h3>
-        </div>
-        <div class="about-business-mid">
-            <p>Giới thiệu về</p>
-            <h3>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</h3>
-            <div class="about-business-mid-content">
-                <p> Công Ty Đục Phá Bê Tông Uy Tín Chuyên Nghiệp Nhất Hcm. Nhanh Chóng - Sạch Sẽ - Nhiệt Tình. Đến
-                    Tận Nơi Khảo Sát. Chốt Lịch Thi Công Sau 30p. Hơn 15năm Trong Nghề. Giảm Giá Gọi Ngay. Khảo Sát,
-                    Thi Công Nhanh. Giá Cả Cạnh Tranh. Gọi Là Tới Liền. Phá Dỡ Nhà Cấp 4 tại TPHCM
-                    Chữ Tín luôn được đặt lên hàng đầu. An toàn, Đúng tiến độ, Giá Tốt. Dịch vụ chuyên nghiệp. Công
-                    ty hơn 10 năm trong lĩnh vực xây dựng, đập phá, tháo dỡ, phá dỡ nhà cũ, công trình. Tư vấn Vui
-                    vẻ 24/7. Chi Phí Tốt Nhất. Thi Công An Toàn Gọn Gàng</p>
+<?php if ($pro_new['numb'] > 0) {
+?>
+<div class="introduce" data-id="0">
+</div>
+<?php } ?>
+<!-- <div class="wrap_tieuchi background-dv">
+    <div class="container">
+        <?php foreach($tieuchi as $q => $ad) { ?>
+        <div class="item_tieuchi">
+            <div class="image-information">
+                <img onerror="this.src='<?=THUMBS?>/0x36x2/assets/images/noimage.png';"
+                    src="<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L.$ad['photo']?>" alt="<?=$ad['ten'.$lang]?>"
+                    title="<?=$ad['ten'.$lang]?>" />
             </div>
-
-            <div class="about-business-mid-more">
-                <a href="gioi-thieu">Xem thêm</a>
+            <div class="number-count">
+                <span class="h1 text-white"><?=$ad['mota'.$lang]?></span>
+                <sup class="text-white">+</sup>
             </div>
-        </div>
-        <div class="about-business-right">
-            <div class="about-businesss-right-image2">
-                <img src="<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L.$ad['photo']?>/gioi-thieu-2.jpg" alt="gioi-thieu-2">
-            </div>
-            <div class="about-businesss-right-image1">
-                <img src="<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L.$ad['photo']?>/anh-gioi-thieu-1.jpg" class="gioithieu-2"
-                    alt="anh-gioi-thieu-1">
-            </div>
+            <div class="name-information"><span class="text-white"><?=$ad['ten'.$lang]?></span></div>
+            <?php } ?>
         </div>
     </div>
-</div>
-<div class="more-information-main"
-    style="background: url('<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L?>/bgnumber.png');">
+</div> -->
+<div class="more-information-main background-dv">
     <div class="container">
         <div class="row gy-3">
+            <?php foreach($tieuchi as $q => $ad) { ?>
             <div class="col-md-3 col-6">
                 <div class="more-information">
                     <div class="image-information">
-                        <img src="http://nangchinhnhanghieng.net/upload/news/tk-4627.png" alt="">
+                    <img onerror="this.src='<?=THUMBS?>/0x36x2/assets/images/noimage.png';"
+                    src="<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L.$ad['photo']?>" alt="<?=$ad['ten'.$lang]?>"
+                    title="<?=$ad['ten'.$lang]?>" />
                     </div>
                     <div class="number-count">
-                        <span class="h1 text-white">10</span>
+                        <span class="h1 text-white"><?=$ad['mota'.$lang]?></span>
                         <sup class="text-white">+</sup>
                     </div>
                     <div class="name-information">
-                        <span class="text-white">Số năm kinh nghiệm</span>
+                        <span class="text-white"><?=$ad['ten'.$lang]?></span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-6">
-                <div class="more-information">
-                    <div class="image-information">
-                        <img src="http://nangchinhnhanghieng.net/upload/news/tk1-4771.png" alt="">
-                    </div>
-                    <div class="number-count">
-                        <span class="h1 text-white">730</span>
-                        <sup class="text-white">+</sup>
-                    </div>
-                    <div class="name-information">
-                        <span class="text-white">Công trình dự án thi công</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="more-information">
-                    <div class="image-information">
-                        <img src="http://nangchinhnhanghieng.net/upload/news/7896-6402.png" alt="">
-                    </div>
-                    <div class="number-count">
-                        <span class="h1 text-white">30</span>
-                        <sup class="text-white">+</sup>
-                    </div>
-                    <div class="name-information">
-                        <span class="text-white">Tỉnh thành thi công</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-6">
-                <div class="more-information">
-                    <div class="image-information">
-                        <img src="http://nangchinhnhanghieng.net/upload/news/tk2-2488.png" alt="">
-                    </div>
-                    <div class="number-count">
-                        <span class="text-white h1">10</span>
-                        <sup class="text-white">+</sup>
-                    </div>
-                    <div class="name-information">
-                        <span class="text-white">Đội ngũ nhân viên hiện có</span>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
 </div>
 <?php if ($pro_new['numb'] > 0) {
 ?>
-	<div class="wrap_product_new" style="background-image: url('./assets/images/bgdichvu.png')">
-		<div class="fixwidth">
-			<div class="title">Dịch vụ nổi bật</div>
-			<p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
-			<div class="paging-product-index1" data-id="0"></div>
-		</div>
-	</div>
+<div class="wrap_product_new" style="background-image: url('./assets/images/bgdichvu.png')">
+    <div class="fixwidth">
+        <div class="title">Dịch vụ nổi bật</div>
+        <p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
+        <div class="paging-product-index1" data-id="0"></div>
+    </div>
+</div>
 <?php } ?>
 <?php if ($pro_new['numb'] > 0) {
 ?>
-	<div class="wrap_product_new nth-2">
-		<div class="fixwidth">
-			<div class="title">Công Trình nổi bật</div>
-			<p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
-			<div class="paging-product-index2" data-id="0"></div>
-		</div>
-	</div>
+<div class="wrap_product_new nth-2">
+    <div class="fixwidth">
+        <div class="title">Công Trình nổi bật</div>
+        <p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
+        <div class="paging-product-index2" data-id="0"></div>
+    </div>
+</div>
 <?php } ?>
 <div class="wrap-contact">
     <div class="container-fluid">
@@ -160,7 +111,7 @@
                         <div class="row">
                             <div class="input-contact col-sm-6">
                                 <input type="email" class="form-control" id="email" name="email" placeholder=""
-                                    required="" >
+                                    required="">
                                 <!-- <div class="underline"></div> -->
                                 <label for="" class="email-customer">Email:</label>
                                 <div class="invalid-feedback">Vui lòng nhập địa chỉ email</div>
@@ -175,7 +126,7 @@
                         </div>
                         <div class="input-contact">
                             <input type="text" class="form-control" id="tieude" name="tieude" placeholder="" required=""
-							autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
+                                autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
                             <div class="underline"></div>
                             <label for="" class="Topic">Chủ đề</label>
                             <div class="invalid-feedback">Vui lòng nhập chủ đề</div>
@@ -193,7 +144,8 @@
                             <div class="invalid-feedback">Vui lòng nhập nội dung</div>
                         </div>
                         <div class="form-register-submit">
-							<button type="submit" class="btn sub-contact" name="submit-contact"><i class="fa fa-long-arrow-right"></i>Gửi liên hệ</button>
+                            <button type="submit" class="btn sub-contact" name="submit-contact"><i
+                                    class="fa fa-long-arrow-right"></i>Gửi liên hệ</button>
                             <input type="hidden" name="recaptcha_response_contact" id="recaptchaResponseContact"
                                 value="HFbGx2fxVRejkAYWxDQkZSQwAeb34AZR8CEWIQDyoCFxEnJWg5MUk6PDxCSzZWLG0jDTVQCB8FRVlLRnhyaQMGaAB8e0x2SEpUYHorKG9_Zm94EwwGTGAgZQV1bAgFHwgFZhN1aXdZVnlpDWJPdWd0Y2Q9GWR0MnVdN18VFgUhbS4HQw">
                         </div>
@@ -202,9 +154,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="wrap-contact-right">
-                    <iframe src="https://www.youtube.com/embed/Akhn15oT-bw" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""></iframe>
+                <?=htmlspecialchars_decode($optsetting['yt_iframe'])?>
                 </div>
             </div>
         </div>
@@ -259,13 +209,13 @@
 </div> -->
 <?php if ($pro_new['numb'] > 0) {
 ?>
-	<div class="wrap_product_new nth-3">
-		<div class="fixwidth">
-			<div class="title">Tin tức nổi bật</div>
-			<p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
-			<div class="paging-product-index3" data-id="0"></div>
-		</div>
-	</div>
+<div class="wrap_product_new nth-3">
+    <div class="fixwidth">
+        <div class="title">Tin tức nổi bật</div>
+        <p>THÁO DỠ NHÀ - CÔNG TRÌNH QUANG HỘI</p>
+        <div class="paging-product-index3" data-id="0"></div>
+    </div>
+</div>
 <?php } ?>
 <!-- <div class="wrap-feedback">
 	<div class="fixwidth">

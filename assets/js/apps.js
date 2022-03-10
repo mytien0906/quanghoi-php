@@ -13,7 +13,10 @@ $.fn.exists = function () {
 if ($(".paging-product").exists()) {
     loadPagingAjax("ajax/ajax_news.php?perpage=6", '.paging-product');
 }
-
+$(".introduce").each(function () {
+    let idl = $(this).attr('data-id');
+    loadPagingAjax("ajax/ajax_intro.php?perpage=1", '.introduce', '', idl);
+});
 $(".paging-product-index1").each(function () {
     let idl = $(this).attr('data-id');
     loadPagingAjax("ajax/ajax_product_paging.php?perpage=6", '.paging-product-index1', '', idl);
@@ -295,7 +298,7 @@ NN_FRAMEWORK.OwlPage = function () {
                     margin: 10,
                 },
                 1000: {
-                    items: 3,
+                    items: 4,
                     margin: 50,
                 }
             }

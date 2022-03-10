@@ -186,7 +186,25 @@
 							<span>Tọa độ google map iframe:</span>
 							<a class="text-sm font-weight-normal ml-1" href="https://www.google.com/maps" target="_blank" title="Lấy mã nhúng google map">(Lấy mã nhúng)</a>
 						</label>
-						<textarea class="form-control" name="data[options][toado_iframe]" id="toado_iframe" rows="5" placeholder="Tọa độ google map iframe"><?=htmlspecialchars_decode($options['toado_iframe'])?></textarea>
+						<textarea class="form-control" name="data[options][toado_iframe]" id="toado_iframe1" rows="5" placeholder="Tọa độ google map iframe"><?=htmlspecialchars_decode($options['toado_iframe2'])?></textarea>
+					</div>
+				<?php } ?>
+				<?php if(isset($config['setting']['toado_iframe']) && $config['setting']['toado_iframe'] == true) { ?>
+					<div class="form-group">
+						<label for="toado_iframe">
+							<span>Fanpage:</span>
+							<a class="text-sm font-weight-normal ml-1" href="https://www.google.com/maps" target="_blank" title="Lấy mã nhúng google map">(Lấy mã nhúng)</a>
+						</label>
+						<textarea class="form-control" name="data[options][fanpage_iframe]" id="fanpage_iframe" rows="5" placeholder="Tọa độ google map iframe"><?=htmlspecialchars_decode($options['fanpage_iframe'])?></textarea>
+					</div>
+				<?php } ?>
+				<?php if(isset($config['setting']['toado_iframe']) && $config['setting']['toado_iframe'] == true) { ?>
+					<div class="form-group">
+						<label for="toado_iframe">
+							<span>Youtube:</span>
+							<a class="text-sm font-weight-normal ml-1" href="https://www.google.com/maps" target="_blank" title="Lấy mã nhúng google map">(Lấy mã nhúng)</a>
+						</label>
+						<textarea class="form-control" name="data[options][yt_iframe]" id="yt_iframe" rows="5" placeholder="Tọa độ google map iframe"><?=htmlspecialchars_decode($options['toado_iframe2'])?></textarea>
 					</div>
 				<?php } ?>
 				<div class="form-group">

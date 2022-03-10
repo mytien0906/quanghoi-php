@@ -97,7 +97,7 @@
    
     /* tin tức */
     $nametype = "tieu-chi";
-    $config['news'][$nametype]['title_main'] = "Tiêu chí";
+    $config['news'][$nametype]['title_main'] = "Hồ sơ";
     $config['news'][$nametype]['check'] = array();
     $config['news'][$nametype]['view'] = true;
     $config['news'][$nametype]['slug'] = false;

@@ -40,9 +40,7 @@
                             width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                             allowfullscreen="true"
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-                    <img src="../../thumbs/300x300x1/upload/product/plugin-image.png" alt="plugin-image"
-                        style="width: 200px;height: 200px !important;"
-                    >
+                            <?=htmlspecialchars_decode($optsetting['fanpage_iframe'])?>
                 </div>
             </div>
         </div>
