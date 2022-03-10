@@ -20,18 +20,18 @@
  
   
     /* Slideshow */
-    // $nametype = "slide";
-    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slideshow";
-    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    // $config['photo']['man_photo'][$nametype]['mota_photo'] = true;
-    // $config['photo']['man_photo'][$nametype]['width_photo'] = 1900;
-    // $config['photo']['man_photo'][$nametype]['height_photo'] = 620;
-    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '200x100x1';
-    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+    $nametype = "slide";
+    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slideshow";
+    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    $config['photo']['man_photo'][$nametype]['mota_photo'] = true;
+    $config['photo']['man_photo'][$nametype]['width_photo'] = 1900;
+    $config['photo']['man_photo'][$nametype]['height_photo'] = 620;
+    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '200x100x1';
+    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
 
     /* Slideshow */
     // $nametype = "slide-qc1";
@@ -104,7 +104,7 @@
  
     /* Background */
     $nametype = "background-dv";
-    $config['photo']['photo_static'][$nametype]['title_main'] = "Background tiêu chí";
+    $config['photo']['photo_static'][$nametype]['title_main'] = "Background hồ sơ";
     $config['photo']['photo_static'][$nametype]['images'] = true;
     $config['photo']['photo_static'][$nametype]['background'] = true;
     $config['photo']['photo_static'][$nametype]['width'] = 1920;
