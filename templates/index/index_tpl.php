@@ -48,7 +48,7 @@
     </div>
 </div>
 <div class="more-information-main"
-    style="background: url('http://nangchinhnhanghieng.net/assets/images/bgnumber.png');">
+    style="background: url('<?=THUMBS?>/0x36x1/<?=UPLOAD_NEWS_L?>/bgnumber.png');">
     <div class="container">
         <div class="row gy-3">
             <div class="col-md-3 col-6">

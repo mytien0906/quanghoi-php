@@ -49,7 +49,7 @@ $pagingItems = $pagingAjax->getAllPageLinks($countItems, $pageLink, $eShow, $id)
 							alt="<?= $v['ten' . $lang] ?>" /></a>
 					<div class="boxproduct_info">
 						<div class="boxproduct_name"><a href="<?= $v['tenkhongdauvi'] ?>" title="<?= $v['tenvi'] ?>"><?= $v['ten' . $lang] ?></a></div>
-						<div class="boxproduct_price"><a href="" class="price-link"><?= $v['motavi'] ?></a></div>
+						<div class="boxproduct_price"><a href="" class="price-link">Xem thêm</a></div>
 
 					</div>
 				</div>

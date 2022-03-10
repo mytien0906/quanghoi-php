@@ -53,7 +53,7 @@
 							alt="<?=$v['ten'.$lang]?>"/></a>
 					<div class="boxnew_info">
 						<h4 class="boxnew_name"><a href="<?=$v['tenkhongdauvi']?>" title="<?=$v['tenvi']?>"><?=$v['ten'.$lang]?></a></h4>
-						<div class="boxnew_link"><p><?= $v['noidungvi']?></p></div>
+						<!-- <div class="boxnew_link"><p><?= $v['noidungvi']?></p></div> -->
 	
 					</div>
 				</div>
