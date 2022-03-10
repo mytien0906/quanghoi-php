@@ -178,21 +178,21 @@
 			$type = $com;
 			$title_crumb = "Dịch Vụ";
 			break;
-		case 'cham-soc-suc-khoe':
-			$source = "news";
-			$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
-			$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
-			$type = $com;
-			$title_crumb = "Chăm sóc sức khỏe";
-			break;
+		// case 'cham-soc-suc-khoe':
+		// 	$source = "news";
+		// 	$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
+		// 	$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
+		// 	$type = $com;
+		// 	$title_crumb = "Chăm sóc sức khỏe";
+		// 	break;
   
-		case 'huong-dan':
-			$source = "news";
-			$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
-			$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
-			$type = $com;
-			$title_crumb = "Hướng dẫn";
-			break;
+		// case 'huong-dan':
+		// 	$source = "news";
+		// 	$template = isset($_GET['id']) ? "news/news_detail" : "news/news";
+		// 	$seo->setSeo('type',isset($_GET['id']) ? "article" : "object");
+		// 	$type = $com;
+		// 	$title_crumb = "Hướng dẫn";
+		// 	break;
   
 		case 'san-pham':
 			$source = "product";

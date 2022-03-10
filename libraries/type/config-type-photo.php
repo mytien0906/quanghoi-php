@@ -20,87 +20,87 @@
  
   
     /* Slideshow */
-    $nametype = "slide";
-    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slideshow";
-    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['mota_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['width_photo'] = 1900;
-    $config['photo']['man_photo'][$nametype]['height_photo'] = 620;
-    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '200x100x1';
-    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+    // $nametype = "slide";
+    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slideshow";
+    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['mota_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['width_photo'] = 1900;
+    // $config['photo']['man_photo'][$nametype]['height_photo'] = 620;
+    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '200x100x1';
+    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
 
     /* Slideshow */
-    /*$nametype = "slide-qc1";
-    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slide quảng cáo 1";
-    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
-    $config['photo']['man_photo'][$nametype]['width_photo'] = 368;
-    $config['photo']['man_photo'][$nametype]['height_photo'] = 334;
-    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '368x334x1';
-    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';*/
+    // $nametype = "slide-qc1";
+    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slide quảng cáo 1";
+    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
+    // $config['photo']['man_photo'][$nametype]['width_photo'] = 368;
+    // $config['photo']['man_photo'][$nametype]['height_photo'] = 334;
+    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '368x334x1';
+    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
 
     /* Slideshow */
-    $nametype = "slide-qc2";
-    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slide quảng cáo 2";
-    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
-    $config['photo']['man_photo'][$nametype]['width_photo'] = 775;
-    $config['photo']['man_photo'][$nametype]['height_photo'] = 315;
-    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '775x315x1';
-    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+    // $nametype = "slide-qc2";
+    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Slide quảng cáo 2";
+    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
+    // $config['photo']['man_photo'][$nametype]['width_photo'] = 775;
+    // $config['photo']['man_photo'][$nametype]['height_photo'] = 315;
+    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '775x315x1';
+    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
 
     /* Slideshow */
-    $nametype = "mxh";
-    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Mạng xã hội";
-    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
-    $config['photo']['man_photo'][$nametype]['width_photo'] = 42;
-    $config['photo']['man_photo'][$nametype]['height_photo'] = 42;
-    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '42x42x2';
-    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF'; 
+    // $nametype = "mxh";
+    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Mạng xã hội";
+    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
+    // $config['photo']['man_photo'][$nametype]['width_photo'] = 42;
+    // $config['photo']['man_photo'][$nametype]['height_photo'] = 42;
+    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '42x42x2';
+    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF'; 
  
 
     /* Slideshow */
-    $nametype = "doi-tac";
-    $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Đối tác";
-    $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
-    $config['photo']['man_photo'][$nametype]['images_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['link_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
-    $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
-    $config['photo']['man_photo'][$nametype]['width_photo'] = 150;
-    $config['photo']['man_photo'][$nametype]['height_photo'] = 150;
-    $config['photo']['man_photo'][$nametype]['thumb_photo'] = '150x150x2';
-    $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF'; 
+    // $nametype = "doi-tac";
+    // $config['photo']['man_photo'][$nametype]['title_main_photo'] = "Đối tác";
+    // $config['photo']['man_photo'][$nametype]['number_photo'] = 2;
+    // $config['photo']['man_photo'][$nametype]['images_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['avatar_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['link_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['tieude_photo'] = true;
+    // $config['photo']['man_photo'][$nametype]['mota_photo'] = false;
+    // $config['photo']['man_photo'][$nametype]['width_photo'] = 150;
+    // $config['photo']['man_photo'][$nametype]['height_photo'] = 150;
+    // $config['photo']['man_photo'][$nametype]['thumb_photo'] = '150x150x2';
+    // $config['photo']['man_photo'][$nametype]['img_type_photo'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF'; 
  
     /* Background */
-    $nametype = "banner-qc";
-    $config['photo']['photo_static'][$nametype]['title_main'] = "Banner quảng cáo";
-    $config['photo']['photo_static'][$nametype]['images'] = true;
-    $config['photo']['photo_static'][$nametype]['background'] = false;
-    $config['photo']['photo_static'][$nametype]['link'] = true;
+    // $nametype = "banner-qc";
+    // $config['photo']['photo_static'][$nametype]['title_main'] = "Banner quảng cáo";
+    // $config['photo']['photo_static'][$nametype]['images'] = true;
+    // $config['photo']['photo_static'][$nametype]['background'] = false;
+    // $config['photo']['photo_static'][$nametype]['link'] = true;
 
-    $config['photo']['photo_static'][$nametype]['width'] = 368;
-    $config['photo']['photo_static'][$nametype]['height'] = 315;
-    $config['photo']['photo_static'][$nametype]['thumb'] = '368x315x1';
-    $config['photo']['photo_static'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
+    // $config['photo']['photo_static'][$nametype]['width'] = 368;
+    // $config['photo']['photo_static'][$nametype]['height'] = 315;
+    // $config['photo']['photo_static'][$nametype]['thumb'] = '368x315x1';
+    // $config['photo']['photo_static'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif|.JPG|.PNG|.JPEG|.Png|.GIF';
  
     /* Background */
     $nametype = "background-dv";
