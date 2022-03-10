@@ -40,23 +40,24 @@
                             width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                             allowfullscreen="true"
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-                            <?=htmlspecialchars_decode($optsetting['fanpage_iframe'])?>
+                    <?= htmlspecialchars_decode($optsetting['fanpage_iframe']) ?>
                 </div>
             </div>
         </div>
         <div class="footer-end-main">
             <div class="footer-end px-5">
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md-6 col-sm-6 col-6">
                         <p class="">© Copyright 2022 Tháo dỡ nhà - Công trình Quang Hội. All rights reserved. Design by
                             SotaGroup Co.,Ltd
                         </p>
                     </div>
-                    <div class="col-md">
-                        <span>Đang online: 12</span>
-                        <span>Trong tuần: 281</span>
-                        <span>Trong tháng: 892</span>
-                        <span>Tổng lượt truy cập: 239029</span>
+                    <div class="col-md-6 col-sm-6 col-6 thongke">
+                        <?php $statistic2 = $statistic->getCounter(); ?>
+                        <span><i class="fas fa-user"></i>Đang online <span><?= $statistic->getOnline() ?></span></span>
+                        <span><i class="fas fa-user-friends"></i>Truy cập tuần <span><?= $statistic2['week'] ?></span></span>
+                        <span><i class="fas fa-users"></i>Truy cập tháng <span><?= $statistic2['month'] ?></span></span>
+                        <span><i class="fas fa-signal"></i>Tổng truy cập <span><?= $statistic2['total'] ?></span></span>
                     </div>
                 </div>
             </div>
@@ -64,8 +65,8 @@
     </div>
     <!-- <div class="boxfooter_bottom">
         <div class="fixwidth d-flex justify-content-between flex-wrap">
-            <div>&copy; <?=$optsetting['copyright']?></div>
-            <div>Online: <?=$online?> | Hôm nay: <?=$counter['today']?> | Tổng: <?=$counter['total']?></div>
+            <div>&copy; <?= $optsetting['copyright'] ?></div>
+            <div>Online: <?= $online ?> | Hôm nay: <?= $counter['today'] ?> | Tổng: <?= $counter['total'] ?></div>
 
         </div>
     </div> -->
