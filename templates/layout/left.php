@@ -1,6 +1,6 @@
  
 
-<div class="box-right menu-right-sp">
+<!-- <div class="box-right menu-right-sp">
 
 	<div class="right-title"><span>DANH MỤC SẢN PHẨM</span></div>
 
@@ -46,7 +46,7 @@
 
 	</div>
 
-</div>
+</div> -->
 
  
 
