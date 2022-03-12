@@ -276,7 +276,7 @@
                 <?php } } ?>
 
                                 <!-- Sản phẩm -->
-                <?php if(isset($config['product'])) { ?>
+                <!-- <?php if(isset($config['product'])) { ?>
                     <?php foreach($config['product'] as $k => $v) { if(!isset($disabled['product'][$k])) { ?>
                         <?php
                             $none = "";
@@ -390,7 +390,7 @@
                             </ul>
                         </li>
                     <?php } } ?>
-                <?php } ?>
+                <?php } ?> -->
 
                 <!-- Bài viết (Có cấp) -->
                 <?php if(isset($config['news'])) { ?>

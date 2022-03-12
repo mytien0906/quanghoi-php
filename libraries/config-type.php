@@ -10,12 +10,19 @@
             //"newsletter" => array("dangkybaogia")
         ),*/
         "Nội dung trang chủ" => array(
-            "news" => array("tieu-chi","feedback"),
-            "photo" => array("slide-qc1","slide-qc2","doi-tac"),
-            "photo_static" => array("banner-qc","background-dv"),
+            "news" => array("tieu-chi"),
+            "photo" => array(),
+            "photo_static" => array("background-dv"),
             //"tags" => array("tin-tuc"),
             //"newsletter" => array("dangkytuyendung")
         )
+        // "Nội dung trang chủ" => array(
+        //     "news" => array("tieu-chi","feedback"),
+        //     "photo" => array("slide-qc1","slide-qc2","doi-tac"),
+        //     "photo_static" => array("banner-qc","background-dv"),
+        //     //"tags" => array("tin-tuc"),
+        //     //"newsletter" => array("dangkytuyendung")
+        // )
     );
 
     /* Config type - Product */
